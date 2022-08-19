@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Quran App",
+    "slug": "quran-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bilalbentoumi.quranapp"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#15803d",
+      "translucent": false
+    }
+  }
+}
